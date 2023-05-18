@@ -6,9 +6,9 @@ title = "Michael Pratt"
 {{< column >}}
 
 # Michael Pratt
-## Software Engineer - Mentor - Entrepreneur
+## Software Engineer - Mentor - Builder
 
-Bears
+I'm Michael, and I've had my hands on a keyboard since 1995 when I was in second grade.
 
 {{< /column >}}
 

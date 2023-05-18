@@ -19,7 +19,7 @@ codeMaxLines = 10
 showLineNumbers = false
 
 # By default the template will look for icons under the icons directory. In some situations you might wanna change that. edit the line below
-# iconsPath = 'icons/'
+iconsPath = 'icons/'
 
 otherSearchableFields = ["Tags", "Categories", "CustomField"] # As they appear in frontmatter
 
@@ -35,8 +35,8 @@ key = "da87401a458102ec6bbd6cc5e5cf8d95" # Search-Only API Key
 
 # Site logo
 [logo]
-  lightMode = "images/compose.svg"
-  darkMode = "images/compose-light.svg"
+  lightMode = "images/logo-light.svg"
+  darkMode = "images/logo-dark.svg"
 
 [source]
   name = "GitHub"
