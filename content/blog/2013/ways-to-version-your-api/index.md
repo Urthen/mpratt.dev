@@ -18,7 +18,7 @@ This article was written long ago and imported to this blog unedited. Some infor
 
 # Part one: Pros and cons of various methods to version your API
 
-Anyone designing an HTTP API with versioning in mind for the first time might be surprised to learn there is no universally accepted method, nor any standard explaining how. This post will be part one of a two part series on API versioning. In this post, I'll cover some API versioning methods used today and the pros and cons of each. In [part two](/blog/2013-05-16-ways-to-version-your-api-part-2/), I'll be describing some strategies you can keep in mind when designing your API to obviate the need to version at all.
+Anyone designing an HTTP API with versioning in mind for the first time might be surprised to learn there is no universally accepted method, nor any standard explaining how. This post will be part one of a two part series on API versioning. In this post, I'll cover some API versioning methods used today and the pros and cons of each. In [part two](/blog/2013/ways-to-version-your-api-part-2/), I'll be describing some strategies you can keep in mind when designing your API to obviate the need to version at all.
 
 There’s a lot of ways to version your API, and if you’ve ever had to change your API drastically, you’ve probably been glad you had a versioning methodology in place. If you didn’t, you probably WISH you did. However, anyone designing such a methodology for the first time might be surprised to know there is no universally accepted method for versioning your API, nor does any standard specify one.
 
@@ -78,5 +78,5 @@ Other benefits include easily being able to ignore it or silently upgrade if the
 
 For now, I'll simply mention that the [Accept header spec](http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html) allows for custom vendor media types, and for parameters to be passed as part of the content negotiation. This is a perfectly valid Accepts header: "application/vnd.urthen.example?version=1.0"
 
-I'll be going over this method in much more detail in [part two of API Versioning](/2013/05/16/ways-to-version-your-api-part-2/). To understand why this method is ideal in my opinion, you'll also need to understand my thoughts on how to create an unversioned API. Make sure to follow me on twitter to know when it is posted.
+I'll be going over this method in much more detail in [part two of API Versioning](/blog/2013/ways-to-version-your-api-part-2/). To understand why this method is ideal in my opinion, you'll also need to understand my thoughts on how to create an unversioned API. Make sure to follow me on twitter to know when it is posted.
 

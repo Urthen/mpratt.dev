@@ -1,7 +1,7 @@
 ---
 title: "OpenAI Embedding and Semantic Search With Redis"
 description: Using OpenAI's Embedding API to perform semantic searching with Redis Search indexing
-summary: 
+summary: Using OpenAI's Embedding API with Typescript to perform semantic searching with Redis Search indexing
 image: vector-search.png
 date: 2023-06-22T13:08:29-05:00
 tags:
@@ -106,7 +106,7 @@ That's it for the OpenAI API side - pretty simple! The most difficult part was t
 
 ## Storing the Embedding
 
-Now that we have the embedding vector and have translated it into a format Redis can understand, it's time to insert it into the Redis index. Note that the ability to index and search Redis this way is part of the [RedisSearch](https://redis.io/docs/stack/search/) optional module - if you plan on deploying this, you'll need to ensure that whatever Redis provider you choose has RedisSearch support. Many of the free or cheap options do not, though the official [Redis Cloud's free tier](https://redis.com/redis-enterprise-cloud/pricing/) does in a very limited capacity.
+Now that we have the embedding vector and have translated it into a format Redis can understand, it's time to insert it into the Redis index. Note that the ability to index and search Redis in a vector distance field like this is part of the [RedisSearch](https://redis.io/docs/stack/search/) optional module - if you plan on deploying this, you'll need to ensure that whatever Redis provider you choose has RedisSearch support. Many of the free or cheap options do not, though the official [Redis Cloud's free tier](https://redis.com/redis-enterprise-cloud/pricing/) does in a very limited capacity.
 
 ### Connecting to Redis
 
